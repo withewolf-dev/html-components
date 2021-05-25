@@ -3,3 +3,119 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --primary-color:#3730A3;
+    --dark-gray:#6B7280;
+    --off-white:#F3F4F6;
+
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width : 600px;
+    margin: auto;
+}
+
+
+.link {
+    text-decoration: none;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    color: azure;
+}
+
+.secondary-link {
+    border: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.inline-list {
+    display: inline;
+    padding: 0rem 0.1rem;
+
+}
+
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem ;
+    color: azure;
+    border-bottom-left-radius: 2rem;
+}
+
+.navigation .link {
+    color: azure;
+}
+
+.nav-brand {
+    font-weight: bold;
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    padding-top: 1rem;
+    font-size:2rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
+
+.hero-heading-highlight {
+    color: var(--primary-color);
+}
+
+.section {
+    padding:2rem;
+    text-align: center;
+}
+
+.section h1 {
+    text-align: center;
+}
+.ow-section {
+    background-color: var(--off-white);
+}
+
+.footer {
+  background-color: var(--primary-color);   
+  padding: 1rem 1rem;
+  color: azure;
+  border-bottom-left-radius: 1rem;
+  text-align: center;
+}
+
+.footer .link {
+    color: azure;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}

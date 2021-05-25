@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html component library</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -15,34 +15,35 @@
     </p>
     <hr />
 
-    <h2>Typography</h2>
+    <h2>@Typography</h2>
 
     <h1>This is heading 1</h1>
     <h2> This is heading 2</h2>
     <small>this is small</small>
     <p>this is used to wrap paragraph</p>
 
+    <hr>
     <h2>@continer</h2>
     <h3>fluid container</h3>
-    <div>
+    <div class="container">
         this will expand to the full width of your page
     </div>
-    <hr />
+
     <h3>center container</h3>
-    <div>
+    <div class="container container-center">
         this is going to be centered to your page
     </div>
     <hr />
 
     <h2>@Links</h2>
-    <a href="/">Primary link</a>
-    <a href ="/">secondary link</a>
-
+    <a href="/" class="link primary-link">Primary link</a>
+    <a href="/" class="link secondary-link">secondary link</a>
+    <hr>
     <h2>@List</h2>
 
     <h3>unordered list</h3>
 
-    <ul>
+    <ul class="list">
         <li>list one</li>
         <li>list two</li>
         <li>list three</li>
@@ -50,67 +51,73 @@
 
     <h3>unordered inline list</h3>
 
-    <ul>
-        <li>inline list one</li>
-        <li>inline list two</li>
-        <li>inline list three</li>
+    <ul class="list">
+        <li class="inline-list">inlinelist one</li>
+        <li class="inline-list">inlinelist two</li>
+        <li class="inline-list">inlinelist three</li>
     </ul>
 
     <h3>reversed ordered list</h3>
-    <ol>
+    <ol reversed>
         <li>milk</li>
         <li>bread</li>
         <li>egg</li>
     </ol>
 
-    <hr/>
+    <hr />
     <h2>@nav</h2>
-    <nav>
-        <div>brand image</div>
-        <ul>
-            <li>
-                <a href="/"> home</a>
+    <nav class="navigation">
+        <div class="nav-brand">brand image</div>
+        <ul class="list nav-pills">
+            <li class="inline-list">
+                <a href="/" class="link link-active"> home</a>
             </li>
-            <li>
-                <a href="/"> brand</a>
+            <li class="inline-list">
+                <a href="/" class="link"> brand</a>
             </li>
-            <li>
-                <a href="/"> about</a>
+            <li class="inline-list">
+                <a href="/" class="link"> about</a>
             </li>
         </ul>
     </nav>
-    
-    <hr/>
+
+    <hr />
 
     <h2>@header</h2>
 
-    <header>
-        <img src="image/header_image.svg"/>
-        <h1>heading inside hero</h1>
+    <header class="hero">
+        <img class="hero-img" src="image/header_image.svg" />
+        <h1 class="hero-heading">
+            Gitartha Kashyap the
+            <span class="hero-heading-highlight"> web developer</span>
+        </h1>
     </header>
 
-    <hr/>
+    <hr />
 
     <h2>@section</h2>
-    <section>
-        <h3>white section</h3>
-        <p> this will have white background</p>
+    <section class="section">
+        <div>
+            <h1>white section</h1>
+            <p> this will have white background</p>
     </section>
 
-    <section>
-        <h3>off white section</h3>
-        <p>this will have off white background</p>
+    <section class="section ow-section">
+        <div>
+            <h1>off white section</h1>
+            <p>this will have off white background</p>
+        </div>
     </section>
 
     <hr>
 
     <h2>@footer</h2>
-    <footer>
+    <footer class="footer">
         <div>Some small heading here</div>
-        <ul>
-            <li>social</li>
-            <li>payment</li>
-            <li>terms & condition</li>
+        <ul class="list">
+            <li class="inline-list"><a class="link" href="">social</a></li>
+            <li class="inline-list"><a class="link" href="">payment </a></li>
+            <li class="inline-list"><a class="link" href="">terms & condition</a></li>
         </ul>
     </footer>
 
