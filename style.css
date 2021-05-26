@@ -8,6 +8,7 @@ body {
     --primary-color:#3730A3;
     --dark-gray:#6B7280;
     --off-white:#F3F4F6;
+    --secondary-color:#A5B4FC;
 
 }
 
@@ -27,7 +28,9 @@ body {
     border-radius: 0.2rem;
     padding: 0.2rem 0.5rem;
 }
-
+a:active{
+    color: aquamarine;
+}
 .primary-link{
     background-color: var(--primary-color);
     color: azure;
@@ -93,7 +96,7 @@ body {
 }
 
 .section {
-    padding:2rem;
+    padding:2rem 10rem;
     text-align: center;
 }
 
@@ -105,7 +108,7 @@ body {
 }
 
 .footer {
-  background-color: var(--primary-color);   
+  background-color: var(--secondary-color);   
   padding: 1rem 1rem;
   color: azure;
   border-bottom-left-radius: 1rem;
@@ -116,6 +119,12 @@ body {
     color: azure;
 }
 
-.footer ul {
-    padding-inline-start: 0px;
+.footer-header{
+    font-weight: bold;
+}
+
+.icon-logo {
+
+    width: 1.5rem;
+    height: 1.5rem;
 }
