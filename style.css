@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 :root{
@@ -13,8 +13,8 @@ body {
 }
 
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 0rem 1rem;
+    text-align: left;
 }
 
 .container-center {
@@ -25,20 +25,31 @@ body {
 
 .link {
     text-decoration: none;
-    border-radius: 0.2rem;
-    padding: 0.2rem 0.5rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
 }
-a:active{
-    color: aquamarine;
+
+link:visited {
+    color:#A5B4FC;
+
 }
+
 .primary-link{
     background-color: var(--primary-color);
     color: azure;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.5rem;
 }
 
 .secondary-link {
     border: 0.1rem solid var(--primary-color);
     color: var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    border-radius: 0.5rem;
 }
 
 .list {
@@ -62,6 +73,10 @@ a:active{
     color: azure;
 }
 
+.navigation .link :active {
+    font-weight: bold;
+}
+
 .nav-brand {
     font-weight: bold;
 }
@@ -79,7 +94,8 @@ a:active{
 }
 
 .hero-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 350px;
     display: block;
     margin: auto;
 }
@@ -96,7 +112,7 @@ a:active{
 }
 
 .section {
-    padding:2rem 10rem;
+    padding:2rem ;
     text-align: center;
 }
 
@@ -127,4 +143,8 @@ a:active{
 
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.margin-md{
+    padding: 1rem;
 }
