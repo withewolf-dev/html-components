@@ -1,130 +1,126 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
 
 body {
-    font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-:root{
-    --primary-color:#3730A3;
-    --dark-gray:#6B7280;
-    --off-white:#F3F4F6;
-    --secondary-color:#A5B4FC;
-
+:root {
+  --primary-color: #3730a3;
+  --dark-gray: #6b7280;
+  --off-white: #f3f4f6;
+  --secondary-color: #a5b4fc;
 }
 
 .container {
-    padding: 0rem 1rem;
-    text-align: left;
+  padding: 0rem 1rem;
+  text-align: left;
 }
 
 .container-center {
-    max-width : 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
-
 .link {
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 0.5rem 1rem;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0.5rem 1rem;
 }
 
 link:visited {
-    color:#A5B4FC;
-
+  color: #a5b4fc;
 }
 
-.primary-link{
-    background-color: var(--primary-color);
-    color: azure;
-    display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-    border-radius: 0.5rem;
+.primary-link {
+  background-color: var(--primary-color);
+  color: azure;
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
+  border-radius: 0.5rem;
 }
 
 .secondary-link {
-    border: 0.1rem solid var(--primary-color);
-    color: var(--primary-color);
-    display: block;
-    max-width: 140px;
-    margin: 1rem 1rem 1rem 0rem;
-    border-radius: 0.5rem;
+  border: 0.1rem solid var(--primary-color);
+  color: var(--primary-color);
+  display: block;
+  max-width: 140px;
+  margin: 1rem 1rem 1rem 0rem;
+  border-radius: 0.5rem;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .inline-list {
-    display: inline;
-    padding: 0rem 0.1rem;
-
+  display: inline;
+  padding: 0rem 0.1rem;
 }
 
 .navigation {
-    background-color: var(--primary-color);
-    padding: 1rem ;
-    color: azure;
-    border-bottom-left-radius: 2rem;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: azure;
+  border-bottom-left-radius: 2rem;
 }
 
 .navigation .link {
-    color: azure;
+  color: azure;
 }
 
 .navigation .link :active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .nav-pills {
-    text-align: right;
+  text-align: right;
 }
 
 .link-active {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .hero {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .hero-img {
-    max-width: 80%;
-    width: 350px;
-    display: block;
-    margin: auto;
+  max-width: 80%;
+  width: 350px;
+  display: block;
+  margin: auto;
 }
 
-.hero-heading{
-    padding-top: 1rem;
-    font-size:2rem;
-    color: var(--dark-gray);
-    text-align: center;
+.hero-heading {
+  padding-top: 1rem;
+  font-size: 2rem;
+  color: var(--dark-gray);
+  text-align: center;
 }
 
 .hero-heading-highlight {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .section {
-    padding:2rem ;
-    text-align: center;
+  padding: 2rem;
+  text-align: center;
 }
 
 .section h1 {
-    text-align: center;
+  text-align: center;
 }
 .ow-section {
-    background-color: var(--off-white);
+  background-color: var(--off-white);
 }
 
 .footer {
-  background-color: var(--secondary-color);   
+  background-color: var(--secondary-color);
   padding: 1rem 1rem;
   color: azure;
   border-bottom-left-radius: 1rem;
@@ -132,19 +128,18 @@ link:visited {
 }
 
 .footer .link {
-    color: azure;
+  color: azure;
 }
 
-.footer-header{
-    font-weight: bold;
+.footer-header {
+  font-weight: bold;
 }
 
 .icon-logo {
-
-    width: 1.5rem;
-    height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
-.margin-md{
-    padding: 1rem;
+.margin-md {
+  padding: 1rem;
 }

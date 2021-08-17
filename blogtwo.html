@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="container container-center">The side effects of useffect</h1>
+    <section class="section ow-section">
+      <div class="container container-center">
+        <p>
+          The side effects of useffect Before functional programming got popular
+          with hooks , we had class components. Functional programming with
+          hooks makes code clean, readable and reusable and the industry never
+          looked back. As much as I love functional components , I miss the
+          lifecyle methods the class components used to provide.<br /><br />
+          Two of the most used lifecycle methods of class components are
+          componentWillUpdate, is called just before rendering.
+          componentDidUpdate ,is called just after rendering. <br /><br />The
+          methods were clear and you would use whatever suits your needs <br />.
+          Now , if you run the below code you will see the console log in the
+          chrome console <br /><br />
+          <img class="container container-center" src="image/ssone.png" />
+          <br />
+
+          What if we didn’t want to show the console log on the first
+          initialization of the app but after initialization we want to show the
+          log on every render. With class components it would have been pretty
+          straightforward using the suited method, but not with functional
+          components. Therefore we have a lill hack. Run the below code .
+          <br /><br />
+          <img class="container container-center" src="image/sstwo.png" />
+          <br />
+
+          We know that even with dependencies useffect runs on first
+          initialization. What we did here is that we created a state init with
+          default state true, when the app runs for the first time, inside the
+          useffect it will check if the init is true or false. On the app
+          initialization the init is default to true it will set init state to
+          false. Now on every re render it will check init and will skip it as
+          the init now is false and will go to the else condition
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
